@@ -1,0 +1,15 @@
+h3
+{
+  font-size: 25px !important;
+}
+
+canvas {
+  /* border:2px double rgb(0, 0, 0); */
+animation-name:baki;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes baki {
+from {box-shadow: 1px 1px 38px blue}
+to {box-shadow: 1px 1px 38px red}
+  }
